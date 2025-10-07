@@ -1,5 +1,15 @@
 import React from "react";
-
+import { NavLink } from "react-router";
+import logo from "../../assets/logo.png";
+import { Github } from 'lucide-react';
+import './navbar.css'
+const links = (
+  <>
+    <NavLink to="/">Home</NavLink>
+    <NavLink to="/apps">Apps</NavLink>
+    <NavLink to="/installation">Installation</NavLink>
+  </>
+);
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm">
@@ -18,52 +28,19 @@ const Navbar = () => {
             </svg>
           </div>
           <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <div className="flex items-center ml-4">
+          <img className="w-8" src={logo} alt="" />
+          <a className="btn btn-ghost text-xl text-blue-700">Hero.Io</a>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
-        </ul>
+        <ul className="menu menu-horizontal px-1 text-xl font-semibold gap-3">{links}</ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end mr-4">
+        <a className="btn btn-primary"><Github /> Contribute</a>
       </div>
     </div>
   );

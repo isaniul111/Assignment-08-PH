@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://picsum.photos/200?random=1",
+    "title": "TaskMaster",
+    "companyName": "Prodify Inc.",
+    "id": 1,
+    "description": "A productivity app to organize tasks and boost efficiency.",
+    "size": 45,
+    "reviews": 15300,
+    "ratingAvg": 4.5,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 540 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=2",
+    "title": "FitTrack",
+    "companyName": "Wellness Co.",
+    "id": 2,
+    "description": "Track workouts, steps, and nutrition with this all-in-one fitness app.",
+    "size": 62,
+    "reviews": 9800,
+    "ratingAvg": 4.2,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 340 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4760 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=3",
+    "title": "EduLearn",
+    "companyName": "SmartEd",
+    "id": 3,
+    "description": "An e-learning app with thousands of courses and quizzes.",
+    "size": 80,
+    "reviews": 25400,
+    "ratingAvg": 4.7,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 16500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=4",
+    "title": "QuickPay",
+    "companyName": "Fintech Global",
+    "id": 4,
+    "description": "Send and receive money instantly with secure encryption.",
+    "size": 40,
+    "reviews": 31000,
+    "ratingAvg": 4.3,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 8900 },
+      { "name": "5 star", "count": 16700 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=5",
+    "title": "TravelMate",
+    "companyName": "Explorer Inc.",
+    "id": 5,
+    "description": "Plan trips, book hotels, and discover new destinations easily.",
+    "size": 95,
+    "reviews": 42000,
+    "ratingAvg": 4.6,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 27600 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=6",
+    "title": "CookBook Pro",
+    "companyName": "Kitchen Labs",
+    "id": 6,
+    "description": "Discover thousands of recipes and cooking tutorials.",
+    "size": 52,
+    "reviews": 16700,
+    "ratingAvg": 4.4,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 11300 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=7",
+    "title": "GameZone",
+    "companyName": "FunWorks",
+    "id": 7,
+    "description": "Play trending games, compete with friends, and earn rewards.",
+    "size": 120,
+    "reviews": 68000,
+    "ratingAvg": 4.1,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 4500 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 27500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=8",
+    "title": "ShopEase",
+    "companyName": "Ecom Corp",
+    "id": 8,
+    "description": "Your one-stop shop for fashion, electronics, and more.",
+    "size": 75,
+    "reviews": 91000,
+    "ratingAvg": 4.6,
+    "downloads": 6300000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 8500 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 55000 }
+    ]
+  }
+]

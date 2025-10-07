@@ -3,6 +3,7 @@ import { createBrowserRouter } from 'react-router'
 import Root from '../Components/Root/Root';
 import ErrorPage from '../Errorpage/ErrorPage';
 import Home from '../Components/Pages/Home/Home';
+import Apps from '../Components/Pages/Apps/Apps';
 
 export const router=createBrowserRouter([
   {
@@ -14,8 +15,14 @@ export const router=createBrowserRouter([
             index:true,
             path:'/',
             Component:Home,
+            loader:()=>fetch('./topview.json')
+        },
+        {
+            path:'/apps',
+            Component:Apps,
             
         }
+
     ],    
 }
 ]);

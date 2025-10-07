@@ -1,0 +1,452 @@
+[
+  {
+    "image": "https://picsum.photos/200?random=1",
+    "title": "TaskMaster",
+    "companyName": "Prodify Inc.",
+    "id": 1,
+    "description": "A productivity app to organize tasks and boost efficiency.",
+    "size": 45,
+    "reviews": 15300,
+    "ratingAvg": 4.5,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 540 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=2",
+    "title": "FitTrack",
+    "companyName": "Wellness Co.",
+    "id": 2,
+    "description": "Track workouts, steps, and nutrition with this all-in-one fitness app.",
+    "size": 62,
+    "reviews": 9800,
+    "ratingAvg": 4.2,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 340 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4760 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=3",
+    "title": "EduLearn",
+    "companyName": "SmartEd",
+    "id": 3,
+    "description": "An e-learning app with thousands of courses and quizzes.",
+    "size": 80,
+    "reviews": 25400,
+    "ratingAvg": 4.7,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 16500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=4",
+    "title": "QuickPay",
+    "companyName": "Fintech Global",
+    "id": 4,
+    "description": "Send and receive money instantly with secure encryption.",
+    "size": 40,
+    "reviews": 31000,
+    "ratingAvg": 4.3,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 8900 },
+      { "name": "5 star", "count": 16700 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=5",
+    "title": "TravelMate",
+    "companyName": "Explorer Inc.",
+    "id": 5,
+    "description": "Plan trips, book hotels, and discover new destinations easily.",
+    "size": 95,
+    "reviews": 42000,
+    "ratingAvg": 4.6,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 27600 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=6",
+    "title": "CookBook Pro",
+    "companyName": "Kitchen Labs",
+    "id": 6,
+    "description": "Discover thousands of recipes and cooking tutorials.",
+    "size": 52,
+    "reviews": 16700,
+    "ratingAvg": 4.4,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 11300 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=7",
+    "title": "GameZone",
+    "companyName": "FunWorks",
+    "id": 7,
+    "description": "Play trending games, compete with friends, and earn rewards.",
+    "size": 120,
+    "reviews": 68000,
+    "ratingAvg": 4.1,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 4500 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 27500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=8",
+    "title": "ShopEase",
+    "companyName": "Ecom Corp",
+    "id": 8,
+    "description": "Your one-stop shop for fashion, electronics, and more.",
+    "size": 75,
+    "reviews": 91000,
+    "ratingAvg": 4.6,
+    "downloads": 6300000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 8500 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 55000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=9",
+    "title": "NewsFlash",
+    "companyName": "DailyBuzz",
+    "id": 9,
+    "description": "Stay updated with breaking news and personalized feeds.",
+    "size": 38,
+    "reviews": 56000,
+    "ratingAvg": 4.3,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 1600 },
+      { "name": "2 star", "count": 2600 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 17000 },
+      { "name": "5 star", "count": 27800 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=10",
+    "title": "Noteify",
+    "companyName": "SimpleSoft",
+    "id": 10,
+    "description": "Take notes quickly and sync across devices.",
+    "size": 25,
+    "reviews": 7200,
+    "ratingAvg": 4.5,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=11",
+    "title": "PhotoCraft",
+    "companyName": "PixelWorks",
+    "id": 11,
+    "description": "Edit and enhance your photos with AI filters and tools.",
+    "size": 88,
+    "reviews": 28500,
+    "ratingAvg": 4.6,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 16600 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=12",
+    "title": "MindSpace",
+    "companyName": "ZenLabs",
+    "id": 12,
+    "description": "Meditation, relaxation, and mindfulness exercises.",
+    "size": 50,
+    "reviews": 11200,
+    "ratingAvg": 4.7,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 7400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=13",
+    "title": "RideOn",
+    "companyName": "MoveFast",
+    "id": 13,
+    "description": "Book cabs, bikes, or rides instantly.",
+    "size": 64,
+    "reviews": 39000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 3400 },
+      { "name": "3 star", "count": 8600 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 12900 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=14",
+    "title": "HealthSync",
+    "companyName": "MediTech",
+    "id": 14,
+    "description": "Monitor your vitals and connect with doctors online.",
+    "size": 70,
+    "reviews": 22500,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3600 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 9900 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=15",
+    "title": "LangBuddy",
+    "companyName": "GlobalEd",
+    "id": 15,
+    "description": "Learn languages with AI-powered lessons and quizzes.",
+    "size": 92,
+    "reviews": 17800,
+    "ratingAvg": 4.8,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=16",
+    "title": "CryptoVault",
+    "companyName": "BlockChainX",
+    "id": 16,
+    "description": "Secure wallet and tracker for cryptocurrencies.",
+    "size": 55,
+    "reviews": 46000,
+    "ratingAvg": 4.1,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 5500 },
+      { "name": "2 star", "count": 6800 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 11700 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=17",
+    "title": "MusicFlow",
+    "companyName": "SoundWave",
+    "id": 17,
+    "description": "Stream unlimited songs and create playlists.",
+    "size": 120,
+    "reviews": 132000,
+    "ratingAvg": 4.6,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 5200 },
+      { "name": "2 star", "count": 8900 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 60000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=18",
+    "title": "DocuScan",
+    "companyName": "OfficePro",
+    "id": 18,
+    "description": "Scan documents and convert them to PDFs instantly.",
+    "size": 36,
+    "reviews": 15800,
+    "ratingAvg": 4.5,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 9900 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=19",
+    "title": "StoryTime",
+    "companyName": "Readly",
+    "id": 19,
+    "description": "Audiobooks, eBooks, and storytelling in one app.",
+    "size": 68,
+    "reviews": 27600,
+    "ratingAvg": 4.7,
+    "downloads": 3400000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=20",
+    "title": "DailyPlanner",
+    "companyName": "LifeTools",
+    "id": 20,
+    "description": "Plan your day with smart reminders and goals.",
+    "size": 29,
+    "reviews": 13400,
+    "ratingAvg": 4.4,
+    "downloads": 960000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4100 },
+      { "name": "5 star", "count": 7300 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=21",
+    "title": "BudgetBuddy",
+    "companyName": "FinanceEase",
+    "id": 21,
+    "description": "Track expenses and manage budgets with ease.",
+    "size": 44,
+    "reviews": 18200,
+    "ratingAvg": 4.3,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 8600 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=22",
+    "title": "Weatherly",
+    "companyName": "SkyWatch",
+    "id": 22,
+    "description": "Accurate weather forecasts and live radar updates.",
+    "size": 40,
+    "reviews": 21500,
+    "ratingAvg": 4.2,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 9200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=23",
+    "title": "SkillForge",
+    "companyName": "LearnHub",
+    "id": 23,
+    "description": "Master new skills with guided tutorials and videos.",
+    "size": 78,
+    "reviews": 33200,
+    "ratingAvg": 4.6,
+    "downloads": 2700000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3900 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 17400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=24",
+    "title": "EventGo",
+    "companyName": "Socialize",
+    "id": 24,
+    "description": "Find, share, and attend local events near you.",
+    "size": 65,
+    "reviews": 19800,
+    "ratingAvg": 4.1,
+    "downloads": 1250000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=25",
+    "title": "SecurePass",
+    "companyName": "LockSafe",
+    "id": 25,
+    "description": "Generate and store strong passwords safely.",
+    "size": 22,
+    "reviews": 9500,
+    "ratingAvg": 4.8,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 6100 }
+    ]
+  }
+]

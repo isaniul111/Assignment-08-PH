@@ -1,9 +1,12 @@
 import React from 'react';
+import Banner from '../Hero/Banner';
+import { useLoaderData } from 'react-router';
 
 const Home = () => {
+  const datas=useLoaderData();
     return (
         <div>
-          <h3>i am in home</h3>  
+          <Banner datas={datas}></Banner>
         </div>
     );
 };
