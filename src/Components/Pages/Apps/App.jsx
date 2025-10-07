@@ -1,11 +1,16 @@
 import React from 'react';
 import { FaDownload } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
+import { useNavigate } from 'react-router';
 
 const App = ({app}) => {
-    const {image, title, downloads, ratingAvg}=app;
+    const {id,image, title, downloads, ratingAvg}=app;
+    const navigate=useNavigate();
+    const hundleClick=(id)=>{
+      navigate(`/singlepage/${id}`);
+    }
     return (
-         <div className="bg-white rounded-xl shadow-sm p-3 hover:shadow-md transition">
+         <div onClick={()=>hundleClick(id)} className="bg-white rounded-xl shadow-sm p-3 hover:shadow-md transition">
               <div className="w-full h-40 bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden">
                 <img
                   src={image}
