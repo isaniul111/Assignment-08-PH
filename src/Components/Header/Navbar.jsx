@@ -7,7 +7,7 @@ const links = (
   <>
     <NavLink to="/">Home</NavLink>
     <NavLink to="/apps">Apps</NavLink>
-    <NavLink to="/installation">Installation</NavLink>
+    <NavLink to="/installed">Installation</NavLink>
   </>
 );
 const Navbar = () => {
@@ -40,7 +40,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 text-xl font-semibold gap-3">{links}</ul>
       </div>
       <div className="navbar-end mr-4">
-        <a className="btn btn-primary"><Github /> Contribute</a>
+        <a href="https://github.com/dashboard" className="btn btn-primary"><Github /> Contribute</a>
       </div>
     </div>
   );

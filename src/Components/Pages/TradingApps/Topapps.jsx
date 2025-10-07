@@ -17,10 +17,10 @@ const Topapps = ({ data }) => {
         {title}
       </h3>
       <div className="flex items-center justify-between mt-2 text-xs">
-        <div className="flex items-center gap-1 text-green-600 font-medium">
+        <div className="flex items-center gap-1 text-green-600 font-medium rounded-lg p-1 bg-[#F1F5E8]">
           <FaDownload /> {downloads}M
         </div>
-        <div className="flex items-center gap-1 text-orange-500 font-medium">
+        <div className="flex items-center gap-1 text-orange-500 font-medium rounded-lg p-1 bg-[#FFF0E1]">
           <FaStar /> {ratingAvg}
         </div>
       </div>
