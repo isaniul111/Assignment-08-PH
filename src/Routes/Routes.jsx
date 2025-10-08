@@ -42,6 +42,6 @@ export const router = createBrowserRouter([
           return app;
         }
       }
-    ] // close children array
-  } // close root route object
-]); // close createBrowserRouter
+    ]
+  }
+]);

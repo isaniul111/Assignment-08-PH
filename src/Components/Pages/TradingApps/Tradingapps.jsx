@@ -1,7 +1,9 @@
 import React, { use } from "react";
 import Topapps from "./Topapps";
+import { useNavigate } from "react-router";
 
 const Tradingapps = ({ datas }) => {
+  const navigate=useNavigate();
   return (
     <div className="p-8">
       <h3 className="text-center text-5xl font-bold mb-4">Trading Apps</h3>
@@ -12,7 +14,7 @@ const Tradingapps = ({ datas }) => {
         ))}
       </div>
       <div className="flex justify-center mt-7">
-        <button className="btn btn-primary">Show All</button>
+        <button onClick={()=>navigate('/apps')} className="btn btn-primary">Show All</button>
       </div>
     </div>
   );

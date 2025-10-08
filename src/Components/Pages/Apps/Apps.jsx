@@ -49,7 +49,7 @@ const Apps = () => {
         {filteredApps.length > 0 ? (
           filteredApps.map((app) => <App key={app.id} app={app} />)
         ) : (
-          <div className="col-span-full text-center text-gray-500 text-xl mt-8">
+          <div className="col-span-full text-center text-gray-500 text-4xl font-bold mt-8">
             No apps found 
           </div>
         )}
