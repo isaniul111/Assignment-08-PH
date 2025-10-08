@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useLoaderData } from "react-router";
 import App from "./App";
 import Loader from "../../Shared/Loader";
+import AppError from "../../../Errorpage/AppError";
 
 const Apps = () => {
   const apps = useLoaderData();
@@ -26,7 +27,7 @@ const Apps = () => {
 
   return (
     <div className="bg-[#f5eded]">
-      <div className="w-11/12 mx-auto mb-8 relative ">
+      <div className="w-11/12 mx-auto relative ">
         <h3 className="text-center text-4xl font-bold pt-7">Our All Applications</h3>
         <p className="text-center text-gray-400 mt-3">
           Explore All Apps on the Market developed by us. We code for Millions
