@@ -1,47 +1,53 @@
-import React from 'react';
-import { createBrowserRouter } from 'react-router';
-import Root from '../Components/Root/Root';
-import ErrorPage from '../Errorpage/ErrorPage';
-import Home from '../Components/Pages/Home/Home';
-import Apps from '../Components/Pages/Apps/Apps';
-import AppInstalled from '../Components/Pages/Installed/AppInstalled';
-import SingleApp from '../Components/Pages/SingleApp/SingleApp';
+import React from "react";
+import { createBrowserRouter } from "react-router-dom";
+import Root from "../Components/Root/Root";
+import ErrorPage from "../Errorpage/ErrorPage";
+import Home from "../Components/Pages/Home/Home";
+import Apps from "../Components/Pages/Apps/Apps";
+import AppInstalled from "../Components/Pages/Installed/AppInstalled";
+import SingleApp from "../Components/Pages/SingleApp/SingleApp";
+import AppError from "../Errorpage/AppError";
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     Component: Root,
-    errorElement: <ErrorPage />,
+    errorElement:<Root></Root>,
     children: [
       {
         index: true,
-        path: '/',
+        path: "/",
         Component: Home,
-        loader: () => fetch('./topview.json')
+        loader: () => fetch("/topview.json"),
       },
       {
-        path: '/apps',
+        path: "/apps",
         Component: Apps,
-        loader: () => fetch('./apps.json')
+        loader: () => fetch("/apps.json"),
       },
       {
-        path: '/installed',
-        Component: AppInstalled
+        path: "/installed",
+        Component: AppInstalled,
       },
       {
-        path: '*',
-        Component: ErrorPage
+        path: "*",
+        Component: ErrorPage,
       },
       {
-        path: '/singlepage/:ids',
-        Component: SingleApp,
+        path: "/singlepage/:id",
+        element: <SingleApp />,
         loader: async ({ params }) => {
-          const res = await fetch('./apps.json');
+          const res = await fetch("/apps.json");
           const data = await res.json();
-          const app = data.find(item => item.id.toString() === params.ids);
+          const app = data.find((item) => item.id.toString() === params.id);
+
+          if (!app) {
+            throw new Response("Not Found", { status: 404 });
+          }
           return app;
-        }
-      }
-    ]
+        },
+        errorElement:<AppError></AppError>,
+      },
+    ],
   }
 ]);

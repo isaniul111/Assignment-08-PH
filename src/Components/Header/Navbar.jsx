@@ -3,11 +3,14 @@ import { NavLink } from "react-router";
 import logo from "../../assets/logo.png";
 import { Github } from 'lucide-react';
 import './navbar.css'
+import { House } from 'lucide-react';
+import { LayoutPanelLeft } from 'lucide-react';
+import { MdInstallDesktop } from "react-icons/md";
 const links = (
   <>
-    <NavLink to="/">Home</NavLink>
-    <NavLink to="/apps">Apps</NavLink>
-    <NavLink to="/installed">Installation</NavLink>
+    <NavLink className={'flex gap-2 items-center'} to="/"><House /> Home</NavLink>
+    <NavLink className={'flex gap-2 items-center'} to="/apps"><LayoutPanelLeft /> Apps</NavLink>
+    <NavLink className={'flex gap-2 items-center'} to="/installed"><MdInstallDesktop /> Installation</NavLink>
   </>
 );
 const Navbar = () => {

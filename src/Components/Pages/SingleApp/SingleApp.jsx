@@ -1,11 +1,15 @@
 import { useLoaderData } from "react-router-dom";
 import { Star, Download, ThumbsUp } from "lucide-react";
 import { useState, useEffect } from "react";
-import { getInstalledApps, isAppInstalled, installApp } from "../../../utils/localStorageHelper";
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { isAppInstalled, installApp } from "../../../utils/localStorageHelper";
+import { toast } from "react-toastify";
+import review from '../../../assets/icon-review.png';
 
 const SingleApp = () => {
   const app = useLoaderData();
   const [isInstalled, setIsInstalled] = useState(false);
+  
   useEffect(() => {
     if (isAppInstalled(app.id)) {
       setIsInstalled(true);
@@ -13,16 +17,19 @@ const SingleApp = () => {
   }, [app.id]);
 
   const handleInstall = () => {
+    toast("Installed App sucessfully.")
     installApp(app);
     setIsInstalled(true);
   };
 
-  const totalRatings = app.ratings.reduce((sum, r) => sum + r.count, 0);
+  const chartData = app.ratings
+    .slice()
+    .sort((a, b) => parseInt(b.name) - parseInt(a.name));
+
   const chartMaxScale = 12000;
 
   return (
     <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg p-8 mt-10">
-      {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center border-b border-gray-300 pb-6">
         <div className="flex items-center gap-4">
           <img src={app.image} alt={app.title} className="w-56 h-56 rounded-xl p-2" />
@@ -50,7 +57,7 @@ const SingleApp = () => {
               <br /> Avg Rating
             </p>
             <p>
-              <ThumbsUp />
+              <img className="w-8" src={ review} alt="" />
               <span className="text-xl font-semibold text-black">
                 {(app.reviews / 1000).toFixed(0)}K
               </span>
@@ -58,7 +65,6 @@ const SingleApp = () => {
             </p>
           </div>
 
-          {/* Install Button */}
           <button
             onClick={handleInstall}
             disabled={isInstalled}
@@ -73,7 +79,41 @@ const SingleApp = () => {
         </div>
       </div>
 
-      {/* Description */}
+      <div className="mt-8">
+        <h2 className="text-xl font-bold text-gray-800 mb-4">Ratings</h2>
+        <div style={{ width: '100%', height: 250, maxWidth: '600px' }}>
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart 
+              data={chartData} 
+              layout="vertical"
+              margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
+            >
+              <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke="#E0E0E0" />
+              <YAxis 
+                dataKey="name" 
+                type="category" 
+                tickLine={false} 
+                axisLine={false} 
+                fontSize={12}
+              />
+              <XAxis 
+                type="number" 
+                domain={[0, chartMaxScale]} 
+                tickLine={false} 
+                axisLine={false} 
+                fontSize={12} 
+                tickFormatter={(value) => value.toLocaleString()} 
+              />
+              <Tooltip 
+                formatter={(value) => [value.toLocaleString(), "Count"]}
+                labelFormatter={(label) => `${label} Rating`}
+              />
+              <Bar dataKey="count" fill="#ff8c00" isAnimationActive={false} />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
+
       <div className="mt-8">
         <h2 className="text-xl font-semibold mb-3">Description</h2>
         <p className="text-gray-700 leading-relaxed">{app.description}</p>

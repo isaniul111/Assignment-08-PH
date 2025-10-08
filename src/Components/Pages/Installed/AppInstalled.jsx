@@ -1,18 +1,27 @@
 import React, { useEffect, useState } from "react";
 import { getInstalledApps, removeApp, sortInstalledApps } from "../../../utils/localStorageHelper";
 import { Star, Download, ChevronDown } from "lucide-react";
+import { toast } from "react-toastify";
+import Loader from "../../Shared/Loader";
 
 const AppInstalled = () => {
   const [installedApps, setInstalledApps] = useState([]);
   const [sortType, setSortType] = useState("");
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [showLoader, setShowLoader] = useState(true);
 
   useEffect(() => {
-    const apps = getInstalledApps();
-    setInstalledApps(apps);
+    const timeout = setTimeout(() => {
+      const apps = getInstalledApps();
+      setInstalledApps(apps);
+      setShowLoader(false);
+    }, 400);
+
+    return () => clearTimeout(timeout);
   }, []);
 
   const handleUninstall = (id) => {
+    toast("App Uninstalled Sucessfully");
     removeApp(id);
     setInstalledApps((prev) => prev.filter((app) => app.id !== id));
   };
@@ -25,7 +34,9 @@ const AppInstalled = () => {
   };
 
   return (
-    <div className="max-w-5xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md">
+    <div className="max-w-5xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md relative">
+      {showLoader && (<Loader message="Please wait..."></Loader>)}
+
       <div className="text-center mb-6 pb-4">
         <h1 className="text-3xl font-bold text-gray-800">Your Installed Apps</h1>
         <p className="text-gray-500 text-sm mt-1">Explore All Trending Apps on the Market developed by us</p>
@@ -38,7 +49,7 @@ const AppInstalled = () => {
         <div className="relative">
           <button
             onClick={() => setDropdownOpen(!dropdownOpen)}
-            className="border-gray-400 flex items-center px-3 py-1.5 rounded text-gray-600 text-sm hover:bg-gray-100"
+            className="border border-gray-400 flex items-center px-3 py-1.5 rounded text-gray-600 text-sm hover:bg-gray-100"
           >
             Sort By {sortType ? `(${sortType})` : ""} <ChevronDown className="w-4 h-4 ml-1" />
           </button>
@@ -69,7 +80,7 @@ const AppInstalled = () => {
       </div>
 
       <div className="space-y-4 rounded-lg p-4 bg-gray-50">
-        {installedApps.length === 0 ? (
+        {installedApps.length === 0 && !showLoader ? (
           <p className="text-gray-500 text-center py-8 text-2xl">No apps installed yet.</p>
         ) : (
           installedApps.map((app) => (
