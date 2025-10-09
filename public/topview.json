@@ -1,10 +1,10 @@
 [
   {
-    "image": "https://picsum.photos/200?random=1",
-    "title": "TaskMaster",
+    "image": "https://i.ibb.co.com/GQtx8QKB/DW-Learn-German.webp",
+    "title": "DW Learn German",
     "companyName": "Prodify Inc.",
     "id": 1,
-    "description": "A productivity app to organize tasks and boost efficiency.",
+    "description": "TaskMaster is a comprehensive productivity app that allows you to organize tasks, set priorities, and track progress with ease. It comes with reminders, calendar integration, and customizable lists to boost personal and professional efficiency. Perfect for teams and individuals who want to stay on top of deadlines and optimize their workflow.",
     "size": 45,
     "reviews": 15300,
     "ratingAvg": 4.5,
@@ -18,11 +18,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=2",
-    "title": "FitTrack",
+    "image": "https://i.ibb.co.com/PzD6wB9T/Duolingo-Language-Lessons.webp",
+    "title": "DuolingoLanguage Lessons",
     "companyName": "Wellness Co.",
     "id": 2,
-    "description": "Track workouts, steps, and nutrition with this all-in-one fitness app.",
+    "description": "FitTrack is an all-in-one fitness tracker designed to monitor workouts, steps, heart rate, and nutrition. The app provides detailed analytics, personalized fitness plans, and goal tracking to help you achieve a healthier lifestyle. Whether you are a beginner or a fitness enthusiast, FitTrack motivates and guides you toward consistent improvement.",
     "size": 62,
     "reviews": 9800,
     "ratingAvg": 4.2,
@@ -36,11 +36,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=3",
-    "title": "EduLearn",
+    "image": "https://i.ibb.co.com/4RhTZ4np/ELSA-Speak-English-Learning.webp",
+    "title": "ELSA SpeakEnglish Learning",
     "companyName": "SmartEd",
     "id": 3,
-    "description": "An e-learning app with thousands of courses and quizzes.",
+    "description": "EduLearn is a powerful e-learning platform offering thousands of courses, interactive quizzes, and tutorials. It helps students, professionals, and lifelong learners enhance their knowledge and develop new skills from anywhere. With progress tracking, certifications, and personalized recommendations, EduLearn makes learning accessible and engaging for everyone.",
     "size": 80,
     "reviews": 25400,
     "ratingAvg": 4.7,
@@ -54,11 +54,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=4",
-    "title": "QuickPay",
+    "image": "https://i.ibb.co.com/zTh5mt4r/English-Grammar-Test.webp",
+    "title": "English Grammar Test",
     "companyName": "Fintech Global",
     "id": 4,
-    "description": "Send and receive money instantly with secure encryption.",
+    "description": "QuickPay allows users to send and receive money instantly with robust security and encryption features. It supports bank transfers, bill payments, and peer-to-peer transactions. The app also offers transaction history, notifications, and easy integration with other financial services, making digital payments fast, safe, and convenient.",
     "size": 40,
     "reviews": 31000,
     "ratingAvg": 4.3,
@@ -72,11 +72,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=5",
-    "title": "TravelMate",
+    "image": "https://i.ibb.co.com/tTKRnLDY/Geo-Gebra-Geometry.webp",
+    "title": "GeoGebra Geometry",
     "companyName": "Explorer Inc.",
     "id": 5,
-    "description": "Plan trips, book hotels, and discover new destinations easily.",
+    "description": "TravelMate is your ultimate travel companion, helping you plan trips, book hotels, and discover destinations effortlessly. It provides itinerary suggestions, travel guides, and local insights to make every journey smooth and enjoyable. Ideal for travelers seeking convenience, personalized recommendations, and hassle-free travel experiences.",
     "size": 95,
     "reviews": 42000,
     "ratingAvg": 4.6,
@@ -90,11 +90,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=6",
-    "title": "CookBook Pro",
+    "image": "https://i.ibb.co.com/dsnq9J7b/LINE-Calls-Messages.webp",
+    "title": "LINE Calls & Messages",
     "companyName": "Kitchen Labs",
     "id": 6,
-    "description": "Discover thousands of recipes and cooking tutorials.",
+    "description": "CookBook Pro is a culinary app that provides thousands of recipes, step-by-step tutorials, and cooking tips for beginners and expert chefs alike. Users can explore cuisines, create meal plans, save favorite recipes, and share their culinary creations. The app makes cooking fun, easy, and inspiring.",
     "size": 52,
     "reviews": 16700,
     "ratingAvg": 4.4,
@@ -108,11 +108,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=7",
-    "title": "GameZone",
+    "image": "https://i.ibb.co.com/M5ZQ08Dn/Learn-Chinese-Chinese-Skill.webp",
+    "title": "Learn Chinese - ChineseSkill",
     "companyName": "FunWorks",
     "id": 7,
-    "description": "Play trending games, compete with friends, and earn rewards.",
+    "description": "GameZone offers the latest trending games, competitive challenges, and rewards for players worldwide. Connect with friends, join tournaments, and enjoy a variety of genres from action to strategy. With social features, leaderboards, and regular updates, GameZone keeps gaming exciting and engaging.",
     "size": 120,
     "reviews": 68000,
     "ratingAvg": 4.1,
@@ -126,11 +126,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=8",
-    "title": "ShopEase",
+    "image": "https://i.ibb.co.com/FLsjbPHz/Learn-Ethical-Hacking-Hacker-X.webp",
+    "title": "Learn Ethical Hacking HackerX",
     "companyName": "Ecom Corp",
     "id": 8,
-    "description": "Your one-stop shop for fashion, electronics, and more.",
+    "description": "ShopEase is a one-stop shopping platform offering fashion, electronics, home goods, and more. Browse thousands of products, get personalized recommendations, enjoy secure payments, and track orders easily. ShopEase makes online shopping convenient, enjoyable, and reliable for everyone.",
     "size": 75,
     "reviews": 91000,
     "ratingAvg": 4.6,

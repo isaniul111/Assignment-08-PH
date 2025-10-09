@@ -1,7 +1,7 @@
 [
   {
-    "image": "https://picsum.photos/200?random=1",
-    "title": "TaskMaster",
+    "image": "https://i.ibb.co.com/GQtx8QKB/DW-Learn-German.webp",
+    "title": "DW Learn German",
     "companyName": "Prodify Inc.",
     "id": 1,
     "description": "TaskMaster is a comprehensive productivity app that allows you to organize tasks, set priorities, and track progress with ease. It comes with reminders, calendar integration, and customizable lists to boost personal and professional efficiency. Perfect for teams and individuals who want to stay on top of deadlines and optimize their workflow.",
@@ -18,8 +18,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=2",
-    "title": "FitTrack",
+    "image": "https://i.ibb.co.com/PzD6wB9T/Duolingo-Language-Lessons.webp",
+    "title": "DuolingoLanguage Lessons",
     "companyName": "Wellness Co.",
     "id": 2,
     "description": "FitTrack is an all-in-one fitness tracker designed to monitor workouts, steps, heart rate, and nutrition. The app provides detailed analytics, personalized fitness plans, and goal tracking to help you achieve a healthier lifestyle. Whether you are a beginner or a fitness enthusiast, FitTrack motivates and guides you toward consistent improvement.",
@@ -36,8 +36,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=3",
-    "title": "EduLearn",
+    "image": "https://i.ibb.co.com/4RhTZ4np/ELSA-Speak-English-Learning.webp",
+    "title": "ELSA SpeakEnglish Learning",
     "companyName": "SmartEd",
     "id": 3,
     "description": "EduLearn is a powerful e-learning platform offering thousands of courses, interactive quizzes, and tutorials. It helps students, professionals, and lifelong learners enhance their knowledge and develop new skills from anywhere. With progress tracking, certifications, and personalized recommendations, EduLearn makes learning accessible and engaging for everyone.",
@@ -54,8 +54,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=4",
-    "title": "QuickPay",
+    "image": "https://i.ibb.co.com/zTh5mt4r/English-Grammar-Test.webp",
+    "title": "English Grammar Test",
     "companyName": "Fintech Global",
     "id": 4,
     "description": "QuickPay allows users to send and receive money instantly with robust security and encryption features. It supports bank transfers, bill payments, and peer-to-peer transactions. The app also offers transaction history, notifications, and easy integration with other financial services, making digital payments fast, safe, and convenient.",
@@ -72,8 +72,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=5",
-    "title": "TravelMate",
+    "image": "https://i.ibb.co.com/tTKRnLDY/Geo-Gebra-Geometry.webp",
+    "title": "GeoGebra Geometry",
     "companyName": "Explorer Inc.",
     "id": 5,
     "description": "TravelMate is your ultimate travel companion, helping you plan trips, book hotels, and discover destinations effortlessly. It provides itinerary suggestions, travel guides, and local insights to make every journey smooth and enjoyable. Ideal for travelers seeking convenience, personalized recommendations, and hassle-free travel experiences.",
@@ -90,8 +90,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=6",
-    "title": "CookBook Pro",
+    "image": "https://i.ibb.co.com/dsnq9J7b/LINE-Calls-Messages.webp",
+    "title": "LINE Calls & Messages",
     "companyName": "Kitchen Labs",
     "id": 6,
     "description": "CookBook Pro is a culinary app that provides thousands of recipes, step-by-step tutorials, and cooking tips for beginners and expert chefs alike. Users can explore cuisines, create meal plans, save favorite recipes, and share their culinary creations. The app makes cooking fun, easy, and inspiring.",
@@ -108,8 +108,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=7",
-    "title": "GameZone",
+    "image": "https://i.ibb.co.com/M5ZQ08Dn/Learn-Chinese-Chinese-Skill.webp",
+    "title": "Learn Chinese - ChineseSkill",
     "companyName": "FunWorks",
     "id": 7,
     "description": "GameZone offers the latest trending games, competitive challenges, and rewards for players worldwide. Connect with friends, join tournaments, and enjoy a variety of genres from action to strategy. With social features, leaderboards, and regular updates, GameZone keeps gaming exciting and engaging.",
@@ -126,8 +126,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=8",
-    "title": "ShopEase",
+    "image": "https://i.ibb.co.com/FLsjbPHz/Learn-Ethical-Hacking-Hacker-X.webp",
+    "title": "Learn Ethical Hacking HackerX",
     "companyName": "Ecom Corp",
     "id": 8,
     "description": "ShopEase is a one-stop shopping platform offering fashion, electronics, home goods, and more. Browse thousands of products, get personalized recommendations, enjoy secure payments, and track orders easily. ShopEase makes online shopping convenient, enjoyable, and reliable for everyone.",
@@ -144,8 +144,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=9",
-    "title": "NewsFlash",
+    "image": "https://i.ibb.co.com/PvVsVd93/Learn-German-5-000-Phrases.webp",
+    "title": "Learn German",
     "companyName": "DailyBuzz",
     "id": 9,
     "description": "NewsFlash delivers breaking news, personalized feeds, and real-time updates across categories like politics, sports, entertainment, and technology. Stay informed with alerts, trending stories, and comprehensive coverage tailored to your interests. The app ensures you never miss important updates from around the world.",
@@ -162,8 +162,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=10",
-    "title": "Noteify",
+    "image": "https://i.ibb.co.com/JWTPPT7y/Math-Workout-Brain-Training.webp",
+    "title": "Math Workout - Brain Training",
     "companyName": "SimpleSoft",
     "id": 10,
     "description": "Noteify is a versatile note-taking app that helps you capture ideas, lists, and reminders quickly. With cloud sync across devices, collaborative notes, and rich text formatting, Noteify keeps your information organized and easily accessible, whether at work, school, or home.",
@@ -180,8 +180,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=11",
-    "title": "PhotoCraft",
+    "image": "https://i.ibb.co.com/h1Tj4KXG/NASA.webp",
+    "title": "NASA",
     "companyName": "PixelWorks",
     "id": 11,
     "description": "PhotoCraft is a powerful photo editing app with advanced AI filters, retouching tools, and creative effects. Users can enhance images, create collages, and share their artwork on social media. Perfect for photographers and casual users seeking professional-level edits on mobile.",
@@ -198,8 +198,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=12",
-    "title": "MindSpace",
+    "image": "https://i.ibb.co.com/mC378xCb/PTE-Exam-Practice-Alfa-PTE.webp",
+    "title": "PTE Exam Practice",
     "companyName": "ZenLabs",
     "id": 12,
     "description": "MindSpace is a mindfulness and meditation app that provides guided exercises, breathing techniques, and relaxation sessions. It helps reduce stress, improve focus, and maintain emotional well-being. Users can track their progress and create personalized routines for daily mental wellness.",
@@ -216,8 +216,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=13",
-    "title": "RideOn",
+    "image": "https://i.ibb.co.com/twYwYWRW/Parallel-Your-Hangout-Place.webp",
+    "title": "ParallelYour Hangout Place",
     "companyName": "MoveFast",
     "id": 13,
     "description": "RideOn is a ride-booking app that allows you to book cabs, bikes, and rides instantly. It provides real-time tracking, fare estimates, and multiple payment options. Perfect for urban commuters and travelers seeking quick, reliable, and affordable transportation.",
@@ -234,8 +234,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=14",
-    "title": "HealthSync",
+    "image": "https://i.ibb.co.com/Tqk0K0NM/Sololearn-Learn-to-code.webp",
+    "title": "Sololearn Learn to code",
     "companyName": "MediTech",
     "id": 14,
     "description": "HealthSync is a comprehensive health monitoring app that tracks vitals such as heart rate, blood pressure, and activity levels. Users can connect with doctors, receive personalized health insights, and manage appointments. It provides a holistic approach to health management in one convenient app.",
@@ -252,8 +252,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=15",
-    "title": "LangBuddy",
+    "image": "https://i.ibb.co.com/gMC47Q0v/Stimy-AI-Math-Solver-App.webp",
+    "title": "Stimy AI Math Solver App",
     "companyName": "GlobalEd",
     "id": 15,
     "description": "LangBuddy is a language learning app that offers AI-powered lessons, quizzes, and practice exercises. Users can learn multiple languages, track their progress, and practice speaking, reading, and writing. LangBuddy makes language learning fun, interactive, and effective for all skill levels.",
@@ -270,8 +270,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=16",
-    "title": "CryptoVault",
+    "image": "https://i.ibb.co.com/Y4wwgYJn/Talkpal-AI-Language-Learning.webp",
+    "title": "Talkpal AI Language Learning",
     "companyName": "BlockChainX",
     "id": 16,
     "description": "CryptoVault is a secure cryptocurrency wallet and portfolio tracker. Users can store, send, and receive multiple cryptocurrencies safely. The app also provides real-time market prices, portfolio insights, and transaction history, making it an essential tool for crypto enthusiasts and investors.",
@@ -288,8 +288,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=17",
-    "title": "MusicFlow",
+    "image": "https://i.ibb.co.com/3mKxD05x/Telegram.webp",
+    "title": "Telegram",
     "companyName": "SoundWave",
     "id": 17,
     "description": "MusicFlow lets you stream unlimited songs, create playlists, and discover new music. With personalized recommendations, offline listening, and high-quality audio, MusicFlow is perfect for music lovers who want to enjoy a seamless listening experience anytime, anywhere.",
@@ -306,8 +306,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=18",
-    "title": "DocuScan",
+    "image": "https://i.ibb.co.com/SXQzkRz5/Text-Me-Second-Phone-Number.webp",
+    "title": "Text Me Number",
     "companyName": "OfficePro",
     "id": 18,
     "description": "DocuScan allows users to quickly scan physical documents and convert them into high-quality PDFs. The app supports automatic edge detection, OCR, and document organization. Ideal for students, professionals, and businesses seeking a paperless workflow.",
@@ -324,8 +324,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=19",
-    "title": "StoryTime",
+    "image": "https://i.ibb.co.com/NgrNN76R/Threema-The-Secure-Messenger.webp",
+    "title": "Threema Secure Messenger",
     "companyName": "Readly",
     "id": 19,
     "description": "StoryTime is an immersive storytelling app offering audiobooks, eBooks, and narrated stories for all ages. Users can explore genres, create libraries, and enjoy offline reading or listening. StoryTime brings literature to life and makes story discovery easy and enjoyable.",
@@ -342,8 +342,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=20",
-    "title": "DailyPlanner",
+    "image": "https://i.ibb.co.com/TD3nhhkM/Voo-V-Meeting.webp",
+    "title": "VooV Meeting",
     "companyName": "LifeTools",
     "id": 20,
     "description": "DailyPlanner is a smart scheduling app that helps you plan your day efficiently. Set reminders, track goals, and manage tasks with ease. It integrates with calendars and provides insights to enhance productivity, helping you make the most out of every day.",
@@ -360,8 +360,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=21",
-    "title": "BudgetBuddy",
+    "image": "https://i.ibb.co.com/rGyJGmv4/WeChat.webp",
+    "title": "WeChat",
     "companyName": "FinanceEase",
     "id": 21,
     "description": "BudgetBuddy is a personal finance app that helps users track expenses, create budgets, and achieve financial goals. It offers insights, spending reports, and reminders to improve money management skills. BudgetBuddy empowers users to make smarter financial decisions with ease.",
@@ -378,8 +378,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=22",
-    "title": "Weatherly",
+    "image": "https://i.ibb.co.com/354JNXTs/WhatsApp.webp",
+    "title": "WhatsApp",
     "companyName": "SkyWatch",
     "id": 22,
     "description": "Weatherly provides accurate weather forecasts, live radar updates, and severe weather alerts. It covers local and global locations with hourly and weekly predictions. Users can plan their day or travel with confidence using this reliable weather companion.",
@@ -396,8 +396,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=23",
-    "title": "SkillForge",
+    "image": "https://i.ibb.co.com/8L6GK4fn/Zello-PTT-Walkie-Talkie.webp",
+    "title": "Zello PTT Walkie Talkie",
     "companyName": "LearnHub",
     "id": 23,
     "description": "SkillForge offers guided tutorials, video lessons, and interactive exercises to help users learn new skills effectively. Whether for professional development or personal enrichment, SkillForge provides structured learning paths and real-time feedback to maximize skill acquisition.",
@@ -414,8 +414,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=24",
-    "title": "EventGo",
+    "image": "https://i.ibb.co.com/VRVgF8m/Zoom-Workplace.webp",
+    "title": "Zoom Workplace",
     "companyName": "Socialize",
     "id": 24,
     "description": "EventGo allows users to find, share, and attend local events, concerts, and meetups. The app offers ticketing, RSVPs, and personalized recommendations, making social planning and networking easier than ever. Never miss out on exciting events around you.",
@@ -432,8 +432,8 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200?random=25",
-    "title": "SecurePass",
+    "image": "https://i.ibb.co.com/bM87JCvG/buz-voice-connects.webp",
+    "title": "buz - voice connects",
     "companyName": "LockSafe",
     "id": 25,
     "description": "SecurePass helps you generate, store, and manage strong passwords securely. With encryption and cloud sync, it ensures your credentials are protected across devices. The app also offers password audits, alerts for breaches, and auto-fill for safe and convenient login experiences.",

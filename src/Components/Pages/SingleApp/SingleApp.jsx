@@ -1,15 +1,15 @@
 import { useLoaderData } from "react-router-dom";
 import { Star, Download, ThumbsUp } from "lucide-react";
 import { useState, useEffect } from "react";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 import { isAppInstalled, installApp } from "../../../utils/localStorageHelper";
 import { toast } from "react-toastify";
-import review from '../../../assets/icon-review.png';
+import review from "../../../assets/icon-review.png";
 
 const SingleApp = () => {
   const app = useLoaderData();
   const [isInstalled, setIsInstalled] = useState(false);
-  
+
   useEffect(() => {
     if (isAppInstalled(app.id)) {
       setIsInstalled(true);
@@ -17,24 +17,21 @@ const SingleApp = () => {
   }, [app.id]);
 
   const handleInstall = () => {
-    toast("Installed App sucessfully.")
+    toast("Installed App sucessfully.");
     installApp(app);
     setIsInstalled(true);
   };
 
-  const chartData = app.ratings
-    .slice()
-    .sort((a, b) => parseInt(b.name) - parseInt(a.name));
+  const chartData = app.ratings.slice().sort((a, b) => parseInt(b.name) - parseInt(a.name));
 
   const chartMaxScale = 12000;
 
   return (
     <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg p-8 mt-10">
       <div className="flex flex-col md:flex-row md:items-center border-b border-gray-300 pb-6">
-        <div className="flex items-center gap-4">
-          <img src={app.image} alt={app.title} className="w-56 h-56 rounded-xl p-2" />
+        <div className="flex items-center gap-4 w-56 h-56 rounded-xl overflow-hidden">
+          <img src={app.image} alt={app.title} className="w-full h-full object-contain" />
         </div>
-
         <div className="flex flex-col gap-2 mt-4 md:mt-0 ml-4">
           <div className="mb-4 border-b-2 border-gray-300 pb-3">
             <h1 className="text-2xl font-bold">{app.title}</h1>
@@ -46,9 +43,7 @@ const SingleApp = () => {
           <div className="flex items-center gap-6 text-gray-600">
             <p>
               <Download />
-              <span className="text-xl font-semibold text-black">
-                {(app.downloads / 1000000).toFixed(1)}M
-              </span>
+              <span className="text-xl font-semibold text-black">{(app.downloads / 1000000).toFixed(1)}M</span>
               <br /> Downloads
             </p>
             <p>
@@ -57,10 +52,8 @@ const SingleApp = () => {
               <br /> Avg Rating
             </p>
             <p>
-              <img className="w-8" src={ review} alt="" />
-              <span className="text-xl font-semibold text-black">
-                {(app.reviews / 1000).toFixed(0)}K
-              </span>
+              <img className="w-8" src={review} alt="" />
+              <span className="text-xl font-semibold text-black">{(app.reviews / 1000).toFixed(0)}K</span>
               <br /> Reviews
             </p>
           </div>
@@ -69,9 +62,7 @@ const SingleApp = () => {
             onClick={handleInstall}
             disabled={isInstalled}
             className={`${
-              isInstalled
-                ? "bg-gray-400 cursor-not-allowed"
-                : "bg-[#7dad85] hover:bg-green-600"
+              isInstalled ? "bg-gray-400 cursor-not-allowed" : "bg-[#7dad85] hover:bg-green-600"
             } text-white px-3 py-2 rounded-md font-semibold`}
           >
             {isInstalled ? "Installed" : `Install Now (${app.size} MB)`}
@@ -81,30 +72,20 @@ const SingleApp = () => {
 
       <div className="mt-8">
         <h2 className="text-xl font-bold text-gray-800 mb-4">Ratings</h2>
-        <div style={{ width: '100%', height: 250, maxWidth: '600px' }}>
+        <div style={{ width: "100%", height: 250, maxWidth: "600px" }}>
           <ResponsiveContainer width="100%" height="100%">
-            <BarChart 
-              data={chartData} 
-              layout="vertical"
-              margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
-            >
+            <BarChart data={chartData} layout="vertical" margin={{ top: 5, right: 30, left: 10, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke="#E0E0E0" />
-              <YAxis 
-                dataKey="name" 
-                type="category" 
-                tickLine={false} 
-                axisLine={false} 
+              <YAxis dataKey="name" type="category" tickLine={false} axisLine={false} fontSize={12} />
+              <XAxis
+                type="number"
+                domain={[0, chartMaxScale]}
+                tickLine={false}
+                axisLine={false}
                 fontSize={12}
+                tickFormatter={(value) => value.toLocaleString()}
               />
-              <XAxis 
-                type="number" 
-                domain={[0, chartMaxScale]} 
-                tickLine={false} 
-                axisLine={false} 
-                fontSize={12} 
-                tickFormatter={(value) => value.toLocaleString()} 
-              />
-              <Tooltip 
+              <Tooltip
                 formatter={(value) => [value.toLocaleString(), "Count"]}
                 labelFormatter={(label) => `${label} Rating`}
               />
